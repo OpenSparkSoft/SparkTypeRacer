@@ -1,0 +1,27 @@
+{
+  "name": "spark-type-racer",
+  "version": "0.0.1",
+  "description": "Spark Type Racer javascript code to handle real time type racer game.",
+  "main": "",
+  "homepage": "https://github.com/OpenSparkSoft/SparkTypeRacer#readme",
+  "repository" : {
+    "type" : "git",
+    "url" : "git@github.com:OpenSparkSoft/SparkTypeRacer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OpenSparkSoft/SparkTypeRacer/issues"
+  },
+  "keywords": [
+    "type",
+    "racer",
+    "typescript"
+  ],
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "typescript": "^2.2.2",
+    "webpack": "^3.3.0"
+  },
+  "author": "Kevin Faulhaber",
+  "contributors": [],
+  "license": "Apache 2.0"
+}
