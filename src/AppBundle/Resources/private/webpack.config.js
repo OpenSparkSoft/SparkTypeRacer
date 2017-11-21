@@ -14,7 +14,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, '../public/js/dist'),
         filename: "[name].js",
-        library: 'VimeoUpload',
+        library: 'SparkTypeRacer',
         libraryTarget: 'var'
     },
     module: {
