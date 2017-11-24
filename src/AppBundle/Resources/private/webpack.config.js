@@ -30,5 +30,6 @@ module.exports = {
             include: /\.min\.js$/,
             minimize: true
         })
-    ]
+    ],
+    watch: true
 };

@@ -2,6 +2,20 @@
 
 {% block body %}
 
-    hi
+    <canvas width="500" height="500" id="canvas"></canvas>
+
+{% endblock %}
+
+{% block javascripts %}
+    {# TODO: Should be changed to .min.js later #}
+    {% javascripts '@AppBundle/Resources/public/js/dist/spark_type_racer.js'%}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    <script>
+        var game = new SparkTypeRacer({
+            canvas: document.getElementById('canvas')
+        });
+    </script>
 
 {% endblock %}
